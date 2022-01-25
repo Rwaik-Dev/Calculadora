@@ -1,3 +1,3 @@
-# Caculadora feita em React 
+# Calculadora feita em React 
 
 Desenvolvido por: Wilker Rwaik Eloi
