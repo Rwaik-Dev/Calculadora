@@ -18,8 +18,8 @@ const App: React.FC = () => {
 
   //Funçoes
   const addDigitoTela = (d: string) => {
-    if ((d == "+" || d == "-" || d == "*" || d == "/") && operado) {
-      console.log("Oi");
+    if ((d === "+" || d === "-" || d === "*" || d === "/") && operado) {
+      console.log(acumulador)
       setOperado(false);
       setValorTela(resultado + d);
       return;
