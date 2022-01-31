@@ -42,7 +42,7 @@ const App: React.FC = () => {
   };
 
   const operacao = (operacao: string) => {
-    if (operacao == "bs") {
+    if (operacao === "bs") {
       let vtela = valorTela;
       vtela = vtela.substring(0, vtela.length - 1);
       setValorTela(vtela);
